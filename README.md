@@ -1,2 +1,10 @@
-# KronometreTherad
-therad ile eş zamanlı calışma yaptık bu uygulamada normalde javada sıralı calışma yerine eş zamanlı calışan theradı kullandık  ve eş zamanlı 10 a kadar sayan 3 tane kronometre yaptık .
+# Kronometre Thread Java Uygulaması
+
+Bu basit Java uygulaması, bir kronometreyi temsil etmek üzere tasarlanmış olan `KronometreThread` sınıfını içerir. Bu sınıf, bir thread içinde çalıştırılabilir ve belirli bir süre boyunca sayıları ekrana yazdırarak bir kronometre işlevi görür.
+
+## Kullanım
+
+1. **Kronometre Thread Nesnesi Oluşturma:**
+   - `KronometreThread` sınıfından bir nesne oluşturun ve bir isimle başlatın.
+   ```java
+   KronometreThread kronometreThread = new KronometreThread("Thread-1");
